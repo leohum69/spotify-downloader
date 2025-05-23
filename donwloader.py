@@ -12,6 +12,20 @@ Requirements:
 - Spotify Developer App credentials
 - FFmpeg installed on your system
 - Also add it to the path (/bin folder)
+
+Spotify API:
+Click the "Create app" button (green button)
+Fill out the form:
+
+App name: Choose any name (e.g., "My Music Downloader")
+App description: Brief description (e.g., "Personal music downloader")
+Website: You can put any URL or leave blank
+Redirect URI: Add http://127.0.0.1:3000/callback
+Which API/SDKs are you planning to use?: Check "Web API"
+
+
+Agree to the terms of service
+Click "Save"
 """
 
 import os
